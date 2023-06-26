@@ -100,7 +100,7 @@
             }
         }
 
-        @media (max-width: 320px) {
+        @media (max-width: rem-calc(20)) {
             margin-top: rem-calc(10);
 
             .pokemon__names {
