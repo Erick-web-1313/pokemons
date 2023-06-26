@@ -34,6 +34,7 @@ public getpokemon(){
     res => {
        this.pokemon = res;
        this.isLoading = true;
+       console.log(res);
     },
     error => {
       this.apiError = true;

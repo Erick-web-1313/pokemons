@@ -29,6 +29,31 @@
             }
         }
 
+        .poke_frente{
+            position: absolute;
+            left: 3%;
+            top: 82%;
+        }
+        .animation{
+            position: absolute;
+            left: 10%;
+            top: 82%;
+            
+        }
+
+        .tipos{
+            margin-bottom: rem-calc(20);
+            position: absolute;
+
+                    font-style: italic;
+                    font-size: rem-calc(32);
+                    text-decoration: underline;
+                    color: var(--secondary-color);
+                    font-weight: 700;
+                    top: 78%;
+        }
+
+
         .pokemon__status {
             position: relative;
 
@@ -91,6 +116,15 @@
 
             .pokemon__status {
                 position: relative;
+
+                img {
+                    position: absolute;
+                    top: rem-calc(-80);
+                    left: rem-calc(0);
+                    
+                    z-index: 10; 
+                }
+
                 &__statistics {
                     min-height: 54.7vh;
                     padding-top: rem-calc(50);

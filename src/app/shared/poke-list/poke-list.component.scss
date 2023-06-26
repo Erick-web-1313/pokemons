@@ -59,9 +59,11 @@ $padding: rem-calc(20);
 
            bottom: $padding;
            right: $padding;
-
+          background: url('../../../assets/bg/background-list-pokemons.svg') no-repeat;
+          
            img{
             width: rem-calc(60);
+        
            }
         }
     }
