@@ -5,7 +5,12 @@
         display: flex;
         justify-content: center;
         align-items: center;
-
+        
         padding: rem-calc(40) 0;
+    }
+    main{
+        @media (max-width: 420px) {
+            width: auto;
+        }
     }
 }
