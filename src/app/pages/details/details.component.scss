@@ -2,6 +2,7 @@
 
 :host {
     main {
+        
         margin-top: rem-calc(40);
 
         .pokemon__names {
@@ -53,6 +54,7 @@
                     top: 78%;
         }
 
+    
 
         .pokemon__status {
             position: relative;
@@ -100,7 +102,9 @@
             }
         }
 
-        @media (max-width: rem-calc(20)) {
+        @media (max-width: 320px) {
+             width: auto;
+            
             margin-top: rem-calc(10);
 
             .pokemon__names {
@@ -129,6 +133,7 @@
                     min-height: 54.7vh;
                     padding-top: rem-calc(50);
                 }
+               
             }
         }
     }
